@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repos\\Dnevnik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\pages\\pageopen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\pages\\pageopen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\pages\\pagestudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\pages\\pagestudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\pages\\pageteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\pages\\pageteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\windows\\oknoochenkas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\windows\\oknoochenkas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\windows\\oknoochenkas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\windows\\oknoochenkas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\windows\\oknoprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\windows\\oknoprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\pages\\pagestudent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\pages\\pagestudent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\models\\partials\\predmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\models\\partials\\predmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\models\\dnevnikdatabase.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\models\\dnevnikdatabase.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\pages\\pageteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\pages\\pageteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\pages\\pageopen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\pages\\pageopen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|d:\\repos\\dnevnik\\dnevnik\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDFDB051-DEC0-4B56-8CA2-8D1B1DC73A6A}|Dnevnik\\Dnevnik.csproj|solutionrelative:dnevnik\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 405,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Windows\\OknoOchenkas.xaml.cs",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Windows\\OknoOchenkas.xaml.cs",
+              "RelativeDocumentMoniker": "Dnevnik\\Windows\\OknoOchenkas.xaml.cs",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Windows\\OknoOchenkas.xaml.cs",
+              "RelativeToolTip": "Dnevnik\\Windows\\OknoOchenkas.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAowGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:41:23.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OknoOchenkas.xaml",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Windows\\OknoOchenkas.xaml",
+              "RelativeDocumentMoniker": "Dnevnik\\Windows\\OknoOchenkas.xaml",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Windows\\OknoOchenkas.xaml",
+              "RelativeToolTip": "Dnevnik\\Windows\\OknoOchenkas.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-24T10:36:23.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Predmet.cs",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Models\\Partials\\Predmet.cs",
+              "RelativeDocumentMoniker": "Dnevnik\\Models\\Partials\\Predmet.cs",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Models\\Partials\\Predmet.cs",
+              "RelativeToolTip": "Dnevnik\\Models\\Partials\\Predmet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:06:05.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OknoProfile.xaml",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Windows\\OknoProfile.xaml",
+              "RelativeDocumentMoniker": "Dnevnik\\Windows\\OknoProfile.xaml",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Windows\\OknoProfile.xaml",
+              "RelativeToolTip": "Dnevnik\\Windows\\OknoProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-24T09:59:49.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Pages\\PageOpen.xaml.cs",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageOpen.xaml.cs",
+              "RelativeDocumentMoniker": "Dnevnik\\Pages\\PageOpen.xaml.cs",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageOpen.xaml.cs",
+              "RelativeToolTip": "Dnevnik\\Pages\\PageOpen.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:56:22.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DnevnikDataBase.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Models\\DnevnikDataBase.edmx",
+              "RelativeDocumentMoniker": "Dnevnik\\Models\\DnevnikDataBase.edmx",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Models\\DnevnikDataBase.edmx [Diagram1]",
+              "RelativeToolTip": "Dnevnik\\Models\\DnevnikDataBase.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-24T09:54:26.042Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageStudent.xaml",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageStudent.xaml",
+              "RelativeDocumentMoniker": "Dnevnik\\Pages\\PageStudent.xaml",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageStudent.xaml",
+              "RelativeToolTip": "Dnevnik\\Pages\\PageStudent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-24T09:44:31.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageTeacher.xaml",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageTeacher.xaml",
+              "RelativeDocumentMoniker": "Dnevnik\\Pages\\PageTeacher.xaml",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageTeacher.xaml",
+              "RelativeToolTip": "Dnevnik\\Pages\\PageTeacher.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-24T09:44:03.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageOpen.xaml",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageOpen.xaml",
+              "RelativeDocumentMoniker": "Dnevnik\\Pages\\PageOpen.xaml",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageOpen.xaml",
+              "RelativeToolTip": "Dnevnik\\Pages\\PageOpen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-24T09:43:51.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pages\\PageTeacher.xaml.cs",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageTeacher.xaml.cs",
+              "RelativeDocumentMoniker": "Dnevnik\\Pages\\PageTeacher.xaml.cs",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageTeacher.xaml.cs",
+              "RelativeToolTip": "Dnevnik\\Pages\\PageTeacher.xaml.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAA3wE8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:13:23.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageStudent.xaml.cs",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageStudent.xaml.cs",
+              "RelativeDocumentMoniker": "Dnevnik\\Pages\\PageStudent.xaml.cs",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\Pages\\PageStudent.xaml.cs",
+              "RelativeToolTip": "Dnevnik\\Pages\\PageStudent.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:06:18.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Dnevnik\\App.xaml.cs",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\App.xaml.cs",
+              "RelativeToolTip": "Dnevnik\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:42:34.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\App.xaml",
+              "RelativeDocumentMoniker": "Dnevnik\\App.xaml",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\App.xaml",
+              "RelativeToolTip": "Dnevnik\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-24T09:41:24.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Dnevnik\\MainWindow.xaml",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\MainWindow.xaml",
+              "RelativeToolTip": "Dnevnik\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-24T09:40:48.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\repos\\Dnevnik\\Dnevnik\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Dnevnik\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\repos\\Dnevnik\\Dnevnik\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Dnevnik\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:40:47.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище DnevnikDataBaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ClassUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Ochenka">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="OchenkaAndUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="OchenkaId" Type="int" />
+    <Property Name="PredmetId" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Predmet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="PredmetAndUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="PredmetId" Type="int" Nullable="false" />
+    <Property Name="ClassId" Type="int" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="150" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+    <Property Name="Otchestvo" Type="nvarchar" MaxLength="150" />
+    <Property Name="Login" Type="nvarchar" MaxLength="150" />
+    <Property Name="Password" Type="nvarchar" MaxLength="150" />
+    <Property Name="RoleId" Type="int" />
+    <Property Name="ClassId" Type="int" />
+  </EntityType>
+  <Association Name="FK_OchenkaAndUser_Ochenka">
+    <End Role="Ochenka" Type="Self.Ochenka" Multiplicity="0..1" />
+    <End Role="OchenkaAndUser" Type="Self.OchenkaAndUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ochenka">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OchenkaAndUser">
+        <PropertyRef Name="OchenkaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OchenkaAndUser_Predmet">
+    <End Role="Predmet" Type="Self.Predmet" Multiplicity="0..1" />
+    <End Role="OchenkaAndUser" Type="Self.OchenkaAndUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Predmet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OchenkaAndUser">
+        <PropertyRef Name="PredmetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OchenkaAndUser_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="OchenkaAndUser" Type="Self.OchenkaAndUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OchenkaAndUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PredmetAndUser_ClassUsers">
+    <End Role="ClassUsers" Type="Self.ClassUsers" Multiplicity="0..1" />
+    <End Role="PredmetAndUser" Type="Self.PredmetAndUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PredmetAndUser">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PredmetAndUser_Predmet">
+    <End Role="Predmet" Type="Self.Predmet" Multiplicity="1" />
+    <End Role="PredmetAndUser" Type="Self.PredmetAndUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Predmet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PredmetAndUser">
+        <PropertyRef Name="PredmetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PredmetAndUser_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="PredmetAndUser" Type="Self.PredmetAndUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PredmetAndUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_ClassUsers">
+    <End Role="ClassUsers" Type="Self.ClassUsers" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище DnevnikDataBaseModelContainer">
+    <EntitySet Name="ClassUsers" EntityType="Self.ClassUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ochenka" EntityType="Self.Ochenka" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OchenkaAndUser" EntityType="Self.OchenkaAndUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Predmet" EntityType="Self.Predmet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PredmetAndUser" EntityType="Self.PredmetAndUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_OchenkaAndUser_Ochenka" Association="Self.FK_OchenkaAndUser_Ochenka">
+      <End Role="Ochenka" EntitySet="Ochenka" />
+      <End Role="OchenkaAndUser" EntitySet="OchenkaAndUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OchenkaAndUser_Predmet" Association="Self.FK_OchenkaAndUser_Predmet">
+      <End Role="Predmet" EntitySet="Predmet" />
+      <End Role="OchenkaAndUser" EntitySet="OchenkaAndUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OchenkaAndUser_User" Association="Self.FK_OchenkaAndUser_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="OchenkaAndUser" EntitySet="OchenkaAndUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PredmetAndUser_ClassUsers" Association="Self.FK_PredmetAndUser_ClassUsers">
+      <End Role="ClassUsers" EntitySet="ClassUsers" />
+      <End Role="PredmetAndUser" EntitySet="PredmetAndUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PredmetAndUser_Predmet" Association="Self.FK_PredmetAndUser_Predmet">
+      <End Role="Predmet" EntitySet="Predmet" />
+      <End Role="PredmetAndUser" EntitySet="PredmetAndUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PredmetAndUser_User" Association="Self.FK_PredmetAndUser_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="PredmetAndUser" EntitySet="PredmetAndUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_ClassUsers" Association="Self.FK_User_ClassUsers">
+      <End Role="ClassUsers" EntitySet="ClassUsers" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role" Association="Self.FK_User_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
